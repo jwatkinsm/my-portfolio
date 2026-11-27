@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { projects } from '../data/portfolioData';
+import { projects } from '../data/portfoliodata';
 
 export function ProjectGallery() {
   const [selectedCategory, setSelectedCategory] = useState('All');

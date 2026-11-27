@@ -1,5 +1,5 @@
 import { ProjectGallery } from './components/ProjectGallery';
-import { achievements } from './data/portfolioData';
+import { achievements } from './data/portfoliodata';
 
 export default function App() {
   return (
