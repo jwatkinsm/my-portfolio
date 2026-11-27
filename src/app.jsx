@@ -23,17 +23,33 @@ export default function App() {
 
       <main>
         <section id="about" className="section about-section">
-          <h2>About Me</h2>
-          <div className="about-content">
-            <p>
-              I'm Joshua Watkins, a developer focused on creating accessible,
-              responsive applications that solve practical problems. My work spans
-              web development, mobile tools, and secure digital experiences.
-            </p>
-            <p>
-              I enjoy turning ideas into polished interfaces with maintainable code,
-              thoughtful interactions, and attention to the needs of real users.
-            </p>
+          <div className="about-grid">
+            <div className="about-content">
+              <h2>About Me</h2>
+              <p>
+                I'm Joshua Watkins, a developer focused on creating accessible,
+                responsive applications that solve practical problems. My work spans
+                web development, mobile tools, and secure digital experiences.
+              </p>
+              <p>
+                I enjoy turning ideas into polished interfaces with maintainable code,
+                thoughtful interactions, and attention to the needs of real users.
+              </p>
+            </div>
+
+            <aside className="skills-card" aria-labelledby="skills-heading">
+              <h2 id="skills-heading">Software Skills</h2>
+              <ul className="skills-list">
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>HTML &amp; CSS</li>
+                <li>Kotlin</li>
+                <li>Jetpack Compose</li>
+                <li>Git &amp; GitHub</li>
+              </ul>
+            </aside>
           </div>
         </section>
 
